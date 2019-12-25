@@ -15,8 +15,8 @@ spec = Gem::Specification.new do |s|
   s.version     = "$Release$"
   s.platform    = Gem::Platform::RUBY
   s.homepage    = "http://www.kuwata-lab.com/erubis/"
-  s.summary     = "a fast and extensible eRuby implementation which supports multi-language"
-  s.rubyforge_project = 'erubis'
+  s.summary     = "a fast and extensible eRuby implementation which supports multi-language"NOTE: Gem::Specification#rubyforge_project= is deprecated with no replacement. It will be removed on or after 2019-12-01.
+Gem::Specification#rubyforge_project= called from /usr/lib/ruby/gems/2.6.0/specifications/erubis-2.7.0.gemspec:17.
   s.description = <<-'END'
   Erubis is an implementation of eRuby and has the following features:
 
